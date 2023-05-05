@@ -1,12 +1,15 @@
 Operations:
     Real opcodes: 3 bits
-        -load
-        -store
-        -nand
-        -mov
-        -update cpsr
+        -load - 000
+        -store - 001
+        -nand - 010
+        -mov - 011
+        -update cpsr - 100
+        -add - 101
+        -lsl - 110
+        -lsr - 111
     Pseudo instructions:
-        -add
+       
         -sub
         -
 Bit for operand 2: 1 bit
