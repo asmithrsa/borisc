@@ -1,0 +1,22 @@
+Operations:
+    Real opcodes: 3 bits
+        -load
+        -store
+        -nand
+        -mov
+        -update cpsr
+    Pseudo instructions:
+        -add
+        -sub
+        -
+Bit for operand 2: 1 bit
+
+Registers 3 bits each: 6 bits
+
+
+Condition flags: 3 bits
+    N: negative
+    Z: zero
+    V: overflow
+
+3 extra bits for operand 2
